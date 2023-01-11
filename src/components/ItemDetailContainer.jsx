@@ -15,14 +15,14 @@ const ItemDetailContainer = () => {
             console.log(id);
             setTimeout(() => {
                 resolve(arrayProductos.find(item => item.id  === parseInt(id)))
-            }, 2000);
+            }, 200);
         }, []);
 
         promesa.then((data) => {
             setItem(data);
         })
 
-    }, [])
+    }, [id])
 
 
     return(
