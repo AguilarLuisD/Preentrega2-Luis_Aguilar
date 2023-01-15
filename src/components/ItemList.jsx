@@ -14,8 +14,7 @@ const ItemList = ({item}) => {
             </div>
             
             )
-       }
-        
+           }  
         </div>
        
     )
